@@ -5,7 +5,7 @@ import random
 import pygame
 
 
-class Model:
+class Model(object):
     """Encode the game state for the Brick Breaker game."""
 
     BRICK_SIZE = (94, 20)
@@ -33,7 +33,7 @@ class Model:
         self.paddle.velocity_x += acceleration
 
 
-class Ball:
+class Ball(object):
     """Encodes the state of the ball in the Brick Breaker game."""
 
     def __init__(self, x, y, r, vx, vy):
@@ -55,7 +55,7 @@ class Ball:
         self.y += self.vy
 
 
-class Brick:
+class Brick(object):
     """Encodes the state of a brick."""
 
     def __init__(self, x, y, width, height, color):
@@ -70,7 +70,7 @@ class Brick:
         pass
 
 
-class Paddle:
+class Paddle(object):
     """Encodes the state of the paddle (player)."""
 
     def __init__(self, x, y, width, height):

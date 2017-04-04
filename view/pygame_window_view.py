@@ -3,7 +3,7 @@
 import pygame
 
 
-class View:
+class View(object):
     """Encodes a view of the BrickBreaker game in a PyGame window."""
 
     def __init__(self, screen, model):

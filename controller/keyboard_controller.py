@@ -4,7 +4,7 @@ import pygame
 from pygame.locals import *
 
 
-class Controller:
+class Controller(object):
     """Control Brick Breaker using the keyboard."""
 
     def __init__(self, model):

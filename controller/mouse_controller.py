@@ -3,7 +3,7 @@
 from pygame.locals import *
 
 
-class Controller:
+class Controller(object):
     """Controls Brick Breaker using the mouse."""
 
     def __init__(self, model):
