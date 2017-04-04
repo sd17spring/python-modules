@@ -1,8 +1,4 @@
-"""
-Created on Wed Apr 23 10:28:23 2014
-
-@author: pruvolo
-"""
+"""The Brick Breaker controller."""
 
 from pygame.locals import *
 

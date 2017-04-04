@@ -1,7 +1,8 @@
 """
-Created on Thu Feb 27 19:34:24 2014
+An implementation of the Brick Breaker game.
 
-@author: pruvolo
+Software Design uses this repository as an example of how to
+organize larger Python programs into modules.
 """
 
 # By convention ( https://www.python.org/dev/peps/pep-0008/#imports )

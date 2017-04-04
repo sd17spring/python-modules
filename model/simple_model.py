@@ -1,11 +1,8 @@
-"""
-Created on Thu Feb 27 19:34:24 2014
+"""Brick Breaker models."""
 
-@author: pruvolo
-"""
+import random
 
 import pygame
-import random
 
 
 class Model:

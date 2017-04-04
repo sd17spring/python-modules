@@ -1,8 +1,4 @@
-"""
-Created on Wed Apr 23 10:26:32 2014
-
-@author: pruvolo
-"""
+"""The Brick Breaker view."""
 
 import pygame
 

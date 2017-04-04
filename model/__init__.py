@@ -1,8 +1,4 @@
-"""
-Created on Wed Apr 23 11:03:56 2014
-
-@author: pruvolo
-"""
+"""Models for Brick Breaker."""
 
 import simple_model
 

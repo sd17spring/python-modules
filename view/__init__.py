@@ -1,8 +1,4 @@
-"""
-Created on Wed Apr 23 11:02:13 2014
-
-@author: pruvolo
-"""
+"""Views for Brick Breaker."""
 
 import pygame_window_view
 

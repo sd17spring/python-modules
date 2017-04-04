@@ -1,8 +1,4 @@
-"""
-Created on Wed Apr 23 10:58:49 2014
-
-@author: pruvolo
-"""
+"""Controllers for Brick Breaker."""
 
 import keyboard_controller
 import mouse_controller

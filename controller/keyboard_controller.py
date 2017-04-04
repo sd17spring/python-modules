@@ -1,11 +1,7 @@
-"""
-Created on Wed Apr 23 10:28:23 2014
+"""The Brick Breaker keyboard controller."""
 
-@author: pruvolo
-"""
-
-from pygame.locals import *
 import pygame
+from pygame.locals import *
 
 
 class Controller:
