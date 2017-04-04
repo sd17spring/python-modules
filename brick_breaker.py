@@ -5,11 +5,9 @@ Created on Thu Feb 27 19:34:24 2014
 """
 
 # By convention ( https://www.python.org/dev/peps/pep-0008/#imports )
-# imports are grouped as: 
+# imports are grouped as:
 
 # 1) standard library
-import random
-import math
 import time
 
 # 2) 3rd party libraries
@@ -17,16 +15,14 @@ import pygame
 from pygame.locals import *
 
 # 3) Local modules
+from controller.keyboard_controller import Controller
 from model.simple_model import Model
 from view.pygame_window_view import View
-from controller.keyboard_controller import Controller
-#from controller.mouse_controller import Controller
-
 
 if __name__ == '__main__':
     pygame.init()
 
-    size = (640,480)
+    size = (640, 480)
     screen = pygame.display.set_mode(size)
 
     model = Model(size)
